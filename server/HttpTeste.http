@@ -1,0 +1,11 @@
+###
+POST http://localhost:1234/carro/cadastrar
+Content-Type: application/json
+
+{
+    "modelo": "Voyage",
+    "placa": "AVM-6906",
+    "ano": "2016"
+}
+###
+GET http://localhost:1234/carro/listar
